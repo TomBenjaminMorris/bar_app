@@ -81,7 +81,10 @@ class LandingPage extends Component {
 
             <Preview />
             <HowItWorks />
-            <Link to={`/map`}> <button className="CheckItOutButton">Try For Free</button></Link>
+            <Link to={`/map`}>
+              {" "}
+              <button className="CheckItOutButton">Try For Free</button>
+            </Link>
             {/* <Donation /> */}
             <Footer />
           </div>

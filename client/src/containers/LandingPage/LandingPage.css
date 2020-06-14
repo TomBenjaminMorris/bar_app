@@ -26,7 +26,7 @@
 
 .custom-bg {
   width: 100vw;
-  height: 750px;
+  height: 800px;
 }
 
 .photosLandingWrapper {
@@ -82,7 +82,7 @@
   display: inline-block;
 }
 
-.supportedAreasLinks>a {
+.supportedAreasLinks > a {
   color: white;
   padding: 10px;
 }
@@ -100,7 +100,7 @@
   border: solid 1px #ff981100;
 }
 
-.searchBarLandingWrapper>a {
+.searchBarLandingWrapper > a {
   color: grey;
   font-size: 26px;
   text-decoration: unset;
@@ -147,7 +147,7 @@
 
 .overlayWrapper {
   position: absolute;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.169));
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.169)); */
   top: 0;
   left: 0;
 }
@@ -163,7 +163,7 @@
   font-weight: bold;
   margin-top: 65px;
   margin-bottom: 0px;
-  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .1), 0 8px 16px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1), 0 8px 16px 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -185,7 +185,7 @@
     height: 600px;
   }
   .photoLanding {
-    height: 660px;
+    height: 700px;
     margin-top: 50px;
   }
   .wrapperLandingParent {
@@ -198,7 +198,7 @@
   .searchBarLandingWrapper {
     padding: 5px 0px 5px 10px;
   }
-  .searchBarLandingWrapper>a {
+  .searchBarLandingWrapper > a {
     font-size: 20px;
   }
   .currentLocationLanding {
@@ -217,7 +217,7 @@
     margin: auto;
     margin-top: 20px;
   }
-  .supportedAreasLinks>a {
+  .supportedAreasLinks > a {
     padding-left: 0px;
   }
   .titleDescriptionLanding {

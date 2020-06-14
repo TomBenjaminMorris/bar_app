@@ -1,6 +1,7 @@
 import React from "react";
 import "./Preview.css";
 import LaptopMobileCombo from "../../images/laptop_iphone_combo-min.png";
+import Image from "../../../components/Image/Image";
 
 const preview = () => {
   return (
@@ -19,7 +20,7 @@ const preview = () => {
           </div>
           <div className="double-column">
             <div className="PreviewImages">
-              <img
+              <Image
                 className="ComboImage"
                 src={LaptopMobileCombo}
                 alt="Laptop and Mobile Application"

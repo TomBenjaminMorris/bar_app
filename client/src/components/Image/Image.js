@@ -12,7 +12,7 @@ class Image extends React.Component {
   }
 
   render() {
-    const { src, className, imageLoadedStyle, noLazyLoad } = this.props;
+    const { src, className, imageLoadedStyle, noLazyLoad, alt } = this.props;
     const imageLoaded = !this.state.imageLoading
       ? imageLoadedStyle || "imgLoaded"
       : "";
@@ -27,7 +27,7 @@ class Image extends React.Component {
                 <img
                   src={src}
                   className={`img ${imageLoaded} ${className}`}
-                  alt=""
+                  alt={alt || ""}
                   onLoad={() => {
                     this.setState({ imageLoading: false });
                   }}
